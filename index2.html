@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Villa Bellevue</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Updock&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/cb7db76cf2.js" crossorigin="anonymous"></script> 
+    <script src="script.js"></script>
+    
+</head>
+<body>
+    <div class="container-fluid">
+        
+        <img class="img-fluid imgHeader" src="./img/facade1.png">
+
+    <!--NAVBAR-->
+        <nav class="navbar navbar-expand-lg bg-dark navbar-dark fixed-top">
+            <div class="container-fluid">
+            <a class="navbar-brand p-3" href="#">Villa <span style="font-weight:bold;">Bellevue</span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav m-auto mb-2 mb-lg-0 ">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="rules.html">Rules life</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#equipements">Equipment</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#acces">Acces</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#infos">Information pratiques</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#photos">Pictures</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#canton">The canton of Fayence</a>
+                </li>
+                <a href="index.html"><img src="./img/french.png"></a>
+            </div>
+            </div>
+        </nav>    
+    
+    <!--A PROPOS-->
+        <header class="text-center p-5">
+            <h2 class="pb-3">Owner's word</h2>
+            <p class="fs-5">Dear vacationers, we welcome you to Villa Bellevue <br> This website has been product to help you communicate all the information necessary to that your stay takes place in the best terms.<br> You will find some amour of information about the villa and the region.<br>However, we remain at your disposal for any extra information.<br>We wish you an excellent stay in Provence.</p>
+        </header>
+
+        <div class="row bg-dark text-white">
+            <div class="col">
+                <img class="imgApropos" src="./img/cuisine.png" alt="cuisine">
+            
+                <h3 class="m-5 text-center">Arrival at the accomodation</h3>
+                <p class="m-5 text-center">Arrivals are from<b>4pm</b>.<br> A visit of the house will be made to answer any questions<br> you may have as well as the delivery of the keys.<br>A remote control for the electric gate will be given you.<br> Gate code:<b>1910</b></p>
+            </div>
+        </div>   
+        
+        <div class="row d-flex justify-content-end  bg-dark text-white">
+            <div class="col">
+                <img class="imgApropos1" src="./img/cuisine1.jpg" alt="cuisine">
+
+                <h3 class="m-5 text-center">Leaving the accomodation</h3>
+                <p class="m-5 text-center">Cleaning will be done by me after your departure.<br> Please put the laundry in front of the washing machine.<br>An exit inventory will be made when the keys are handed over,<br> please let me know your departure time for this one.<br> The villa must be vacated by<b>10 am at the latest</b>.</p>
+            </div>
+            <div class="row-4 d-flex justify-content-center m-5">
+                <button class="btn btn-outline-secondary btn-lg">See pictures</button>
+            </div>
+        </div>
+
+        
+    <!--Equipements-->
+
+        <div id="equipements" class="row equipements">
+            <div class="col">
+                <h3 class="text-center m-lg-5"> The Equipment</h3>
+                <p class="text-center m-lg-5"><b>
+                    SWIMMING POOL - WIRELESS - AIR CONDITIONER - LAUNDRY</b></p>
+
+                <img id="salon-nuit" src="./img/salon-nuit.jpg" alt="salon nuit">
+                
+
+                <div class="tableau">
+                    <h4>ENTERTAINMENT <a onclick="show('open1');"><i class="fa-solid fa-plus"></i></a></h4>
+                    <div class="section" id="open1">
+                        <ul>
+                            <li>Tv</li>
+                            <li>Cable/Satellite</li>
+                            <li>Books</li>
+                        </ul>
+                    </div>
+                </div>
+                <div>
+                    <h4>KITCHEN <a onclick="show('open2');"><i class="fa-solid fa-plus"></i></a></h4>
+                    <div class="section" id="open2">
+                        <ul>
+                            <li>Microwaves</li>
+                            <li>Americain fridge</li>
+                            <li>Crockery and cutlery</li>
+                            <li>Coffee maker</li>
+                            <li>Dishwasher</li>
+                            <li>Oven</li>
+                            <li>Barbecue</li>
+                            <li>Ice machine</li>
+                            <li>Blender</li>
+                            <li>Kettle</li>
+                            <li>Coffee grinder</li>
+                            <li>Table for dinner</li>
+                            <li>Kitchen island</li>
+
+                        </ul>
+                    </div>
+                </div>
+                <div>
+                    <h4>BATHROOM <a onclick="show('open3');"><i class="fa-solid fa-plus"></i></a></h4>
+                    <div class="section" id="open3">
+                        <ul>
+                            <li>Towels</li>
+                            <li>Hair dryer</li>
+                        </ul>
+                    </div>
+                </div>
+                <div>
+                    <h4>LAUNDRY ROOM <a onclick="show('open4');"><i class="fa-solid fa-plus"></i></a></h4>
+                    <div class="section" id="open4">
+                        <ul>
+                            <li>Washing machine</li>
+                            <li>Clothes dryer</li>
+                            <li>Ironing board and iron</li>
+                        </ul>
+                    </div>
+                </div>
+                <div>
+                    <h4>CHILDREN <a onclick="show('open5');"><i class="fa-solid fa-plus"></i></a></h4>
+                    <div class="section" id="open5">
+                        <ul>
+                            <li>Chair</li>
+                            <li>Bed</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    <!--ACCES VILLA-->
+    <div id="acces" class="row d-flex justify-content-center bg-dark p-5">
+        <div class="col-lg-6 map">
+            <h3 class="text-white">Acces to the villa</h3>
+            <iframe width="100%" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=6.680124700069428%2C43.632120770334794%2C6.683665215969087%2C43.63378641956482&amp;layer=mapnik&amp;marker=43.63295360072043%2C6.681894958019257"></iframe><br/><small><a href="https://www.openstreetmap.org/?mlat=43.63295&amp;mlon=6.68189#map=19/43.63295/6.68189">Display a larger map</a></small>
+        </div>
+    </div>    
+
+    <!--INFOS PRATIQUES--> 
+
+        <section id="infos">
+            <h2 class="text-center p-5">Practical information</h2>
+            <div class="row d-flex justify-content-center text-center mb-5 ">
+                <h3 class="rounded-5 bg-light text-wrap" style="width: 30%;">Where to shop ? <a onclick="show('open6');"><i class="fa-solid fa-plus"></i></a></h3>
+                <div class="section" id="open6">
+                    <div class="col fw-bold">Super U<br>86 Rte de Fréjus, 83440 Fayence<br>Tel: 04.94.76.22.42</div><br>
+                    <div class="col fw-bold">Intermarché<br>Quartier les grandes terrasses, 83440 Tourrettes<br>Tel: 04.94.50.34.26</div><br>
+                    <div class="col fw-bold">Lidl<br>Ch des Combes, 83440 Callian<br>Tel: 0.800.90.03.43</div><br>
+                    <div class="col fw-bold">E.Leclerc<br>Lieu dit Vincent, rd 562, 83440 Montauroux<br>Tel: 04.94.60.43.00</div>
+                </div>
+            </div>
+
+            <div class="row d-flex justify-content-center text-center mb-5">
+                <h3 class="rounded-5 bg-light text-wrap" style="width: 30%;">Where to find fuel ? <a onclick="show('open7');"><i class="fa-solid fa-plus"></i></a></h3>
+                <div class="section" id="open7">
+                    <div class="col fw-bold">Mr Pelassy Elie<br>Quartier de la gare, 83440 Fayence<br>Tel: 04.94.76.03.03</div><br>
+                    <div class="col fw-bold">Intermarché<br>Quartier les grandes terrasses, 83440 Tourrettes<br>Tel: 04.94.50.34.26</div><br>
+                    <div class="col fw-bold">E.Leclerc<br>Lieu dit Vincent, rd 562, 83440 Montauroux<br>Tel: 04.94.60.43.00</div>
+                </div>    
+            </div>
+
+            <div class="row d-flex justify-content-center text-center mb-5">
+                <h3 class="rounded-5 bg-light text-wrap" style="width: 30%;">Pharmacy <a onclick="show('open8');"><i class="fa-solid fa-plus"></i></a></h3>
+                <div class="section" id="open8">
+                    <div class="col fw-bold">Pharmacie du village<br>14 Av René Cassin, 83440 Fayence<br>Tel: 04.94.76.00.61</div><br>
+                    <div class="col fw-bold">Aprium<br>Centre Tassi, d19, 83440 Tourrettes<br>Tel: 04.94.76.10.91</div><br>
+                    <div class="col fw-bold">Pharmacie Callian<br>Centre Camiole, rd 562, 83440 Callian<br>Tel: 04.94.76.53.11</div>
+                </div>
+            </div>
+            <div class="row d-flex justify-content-center text-center">
+                <h3 class="rounded-5 bg-light text-wrap" style="width: 30%;">Hospitals <a onclick="show('open9');"><i class="fa-solid fa-plus"></i></a></h3>
+                <div class="section" id="open9">
+                    <div class="col fw-bold">CHI Fréjus-St Raphaël<br>240 Av de Saint-Lambert, 83600 Fréjus<br>Tel: 04.94.40.21.21</div><br>
+                    <div class="col fw-bold">Centre Hospitalier de Grasse<br>28 Ch de Clavary, 06130 Grasse<br>Tel: 04.93.09.55.55</div>
+                </div>
+            </div>
+        </section>
+
+    <!--CARROUSSEL AVIS-->    
+        <div class="row d-flex justify-content-center">
+            <div class="col-lg-6">
+                <div id="carouselExampleIndicators" class="carousel slide carousel-fade carousel-dark" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="./img/avis1.png" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./img/avis2.png" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./img/avis3.png" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev text-black" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+    <!--PHOTOS-->
+        <div id="photos" class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+                    <img 
+                    src="./img/gd-table-ext.jpg" 
+                    class="w-100 rounded shadow-1-strong mb-3"/>
+                
+                    <img 
+                    src="./img/facade1.png" 
+                    class="w-100 rounded shadow-1-strong mb-3"/>
+                </div>
+
+                <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+                    <img 
+                    src="./img/cuisine.png" 
+                    class="w-100 rounded shadow-1-strong mb-3"/>
+                
+                    <img 
+                    src="./img/petite-terrasse.jpg" 
+                    class="w-100 rounded shadow-1-strong mb-3"/>
+                </div>
+
+                <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+                    <img 
+                    src="./img/salon-nuit.jpg" 
+                    class="w-100 rounded shadow-1-strong mb-3"/>
+                
+                    <img 
+                    src="./img/vue-olivier.png" 
+                    class="w-100 rounded shadow-1-strong mb-3"/>
+                </div>
+            </div>   
+        </div>
+
+    <!--LE CANTON-->    
+
+        <div id="canton" class="row bg-dark p-5 text-white">
+            <div class="col">
+                <img id="panneau-fayence" class="img-fluid" src="./img/panneau-fayence.jpg">
+
+                
+
+                    <div class="row d-flex justify-content-center text-center mb-5 ">
+                        <h2 class="mb-5">The Canton of Fayence</h2>
+
+                        <h3>Restaurants <a onclick="show('open10');"><i class="fa-solid fa-plus"></i></a></h3>
+
+                        <div class="section" id="open10">
+
+                            <div class="col fw-bold">Pizzeria la Cantina<br><a href="https://www.tripadvisor.fr/Restaurant_Review-g668273-d4996066-Reviews-La_Cantina-Fayence_Var_Provence_Alpes_Cote_d_Azur.html">Voir plus</a></div><br>
+
+                            <div class="col fw-bold">L'Escourtin au Moulin de la Camandoule<br><a href="https://www.tripadvisor.fr/Restaurant_Review-g668273-d2367859-Reviews-L_Escourtin_au_Moulin_de_la_Camandoule-Fayence_Var_Provence_Alpes_Cote_d_Azur.html">Voir plus</a></div><br>
+
+                            <div class="col fw-bold">Le Temps des Cerises<br><a href="https://www.tripadvisor.fr/Restaurant_Review-g668273-d1742661-Reviews-Le_Temps_Des_Cerises-Fayence_Var_Provence_Alpes_Cote_d_Azur.html">Voir plus</a></div><br>
+                        </div>
+
+                        <h3>Activites <a onclick="show('open11');"><i class="fa-solid fa-plus"></i></a></h3>
+
+                        <div class="section" id="open11">
+
+                            <div class="col fw-bold">In order to see all the activities available in the canton of Fayence, we recommend the website of the town which is very informative<br><a href="https://www.paysdefayence.com/le-pays-de-fayence/tous-nos-incontournables/">See the website</a></div><br>
+                        </div>
+
+                        <h3>Golfs <a onclick="show('open12');"><i class="fa-solid fa-plus"></i></a></h3>
+
+                        <div class="section" id="open12">
+
+                            <div class="col fw-bold">Terre Blanche à Tourettes<br><a href="https://
+                                www.terre-blanche.com/fr/golf_cpa34_904b.htm">See the golf</a></div><br>
+                            <div class="col fw-bold">Golf de Roquebrune<br><a href="https://www.golfderoquebrune.com/fr/">See the golf</a></div><br>
+
+                            <div class="col fw-bold">Golf old Course Mandelieu<br><a href="https://www.golfoldcourse.com/">See the golf</a></div><br>
+                        </div>
+
+                        <h3>Wine estates <a onclick="show('open13');"><i class="fa-solid fa-plus"></i></a></h3>
+
+                        <div class="section" id="open13">
+
+                            <div class="col fw-bold">Château des Selves Seillans<br><a href="https://www.chateaudesselves.com/">See the estate</a></div><br>
+                            <div class="col fw-bold">La Grande Bastide Tourrettes<br><a href="https://www.grandebastide.fr/">See the estate</a></div><br>
+
+                            <div class="col fw-bold">Val d'Iris Seillans<br><a href="https://valdiris.com/">See the estate</a></div><br>
+                        </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row m-lg-5 d-flex justify-content-center text-center">
+            <h2 class="m-lg-5 m-3">The Fayence market</h2>
+            <div class="col mt-lg-5 m-2">
+            <p class="m-lg-5 fs-4">The Fayence market is held regularly on Tuesdays, Thursdays and staurdays. the stands are normally deployed at the latest from 8am, and the merchants begin to tidy up from 12:30am. It's located on Place Thiers, also called Place de l'Eglise Saint-Jean Baptiste. It's to the east, above the city center. Merchants can be found at around 90 stalls. It sells: fruits, vegetables, products from local producers, clothing, ustensils, furniture, toys or other non-food products </p>
+            </div>
+            <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+                <img src="./img/marche1.jpg"
+                class="w-100 rounded shadow-1-strong mb-5">
+                <img src="./img/marche2.jpg"
+                class="w-100 rounded shadow-1-strong mb-3">
+            </div>
+            <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+                <img src="./img/marche3.jpg"
+                class="w-100 rounded shadow-1-strong mb-3">
+                <img src="./img/marche4.jpg"
+                class="w-100 rounded shadow-1-strong mb-3">
+            </div>
+        </div>
+
+        <div class="welcome">
+            <h2 class="text-center">Welcome to provence and enjoy your stay</h2>
+        </div>
+
+        <footer class="bg-dark text-center text-white">
+            <p class="pt-3">Site web created by Sciauvaud Cassandra</p>
+        </footer>
+
+
+    </div>
+
+
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>    
+</body>
+</html>

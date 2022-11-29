@@ -1,0 +1,131 @@
+body, html, .container-fluid {
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    font-family: 'Updock', cursive;
+    color: #3a4520; 
+    font-size: 400%;
+}
+
+h3 {
+    font-family: 'Updock', cursive;
+    font-size: 300%;
+}
+
+@media screen and (min-width: 800px) {
+    .imgHeader {
+        width: 1900px;
+        height: 950px;
+    }
+    #salon-nuit {
+        float: right;
+        width: 40%;
+        margin-right: 60px;
+        border: 10px ridge;
+    }
+    #panneau-fayence {
+        float: left;
+        padding: 60px;
+        width: 40%;
+    }
+    .equipements {
+        padding-right: 100px;
+        padding-left: 100px;
+        padding-top: 30px;
+        padding-bottom: 60px;
+    }
+    .welcome{ 
+        font-size: 100px;
+    }
+ 
+
+     
+}
+
+@media only screen and (max-width: 800px) {
+    #salon-nuit {
+        width: 100%;
+        border: 10px ridge;
+    }
+
+    .welcome {
+        font-size: 50px;
+    }
+}
+
+.nav-link {
+    color: white;
+}
+
+.imgApropos {
+    width: 50%;
+    float: left;
+    box-shadow: 10px 10px 30px black;
+}
+
+.imgApropos1 {
+    width: 50%;
+    float: right;
+    box-shadow: 10px 10px 30px black;
+}
+.tableau {
+    margin-top: 5%;
+}
+
+.equipements {
+    background-image: url(./img/bg-equipements.jpg);
+}
+
+
+
+.section {
+    display: none;
+}
+
+.icons {
+    color: white;
+}
+
+.iconBlack {
+    color: black;
+}
+
+#infos {
+    background-image: url(./img/bg-info.jpg);
+    background-size: 100% 650px;
+    padding-bottom: 50px;
+}
+
+
+
+.map {
+    border: 3px solid black;
+    border-radius: 10px;
+    box-shadow: 10px 10px 30px black;
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.welcome {
+    background-image: url(./img/footer.jpg);
+    background-size: cover;
+    height: 400px;
+    font-family: 'Updock', cursive;
+    color: #3a4520;
+    padding-top: 10px;
+}
+
+footer {
+    height: 60px;
+}
+
+
+
+
+
+
